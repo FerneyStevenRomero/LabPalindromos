@@ -1,0 +1,34 @@
+div{
+  margin: 5px;
+}
+
+input[type="button"]
+{
+  width: 10%;
+  height: 5%;
+  margin: 6px 0 0 0;
+  background-color: rgb(85, 173, 255);
+  border-radius: 5px;
+  border-color: cornflowerblue;
+  margin: 5px;
+}
+
+input[type="number"]
+{
+  margin: 6px 0 0 0;
+  width: 10% !important;
+  height: 5% !important;
+  outline:none;
+  border-radius: 5px;
+  border:solid 1px;
+  border-color: rgb(141, 141, 141);
+   
+}
+
+.ingreso input[type="number"]:hover
+{box-shadow: 0 0 3px #57b9fa;}
+
+.ingreso input[type="button"]:hover
+{box-shadow: 0 0 5px #57b9fa;}
+
+
